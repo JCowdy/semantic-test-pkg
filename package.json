@@ -1,5 +1,5 @@
 {
-  "name": "@jcowdy/semantic-test-pkg",
+  "name": "jcowdy-semantic-test-pkg",
   "version": "1.0.0",
   "description": "Test package for semantic release",
   "main": "index.js",
