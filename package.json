@@ -1,6 +1,6 @@
 {
   "name": "jcowdy-semantic-test-pkg",
-  "version": "1.0.0",
+  "version": "1.2.3",
   "description": "Test package for semantic release",
   "main": "index.js",
   "scripts": {
@@ -24,10 +24,15 @@
     "plugins": [
       "@semantic-release/github",
       "@semantic-release/npm",
-      ["@semantic-release/git", {
-        "assets": ["package.json"],
-        "message": "chore(release): ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}"
-      }]
+      [
+        "@semantic-release/git",
+        {
+          "assets": [
+            "package.json"
+          ],
+          "message": "chore(release): ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}"
+        }
+      ]
     ]
   },
   "homepage": "https://github.com/JCowdy/semantic-test-pkg#readme",
