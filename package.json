@@ -6,6 +6,7 @@
   "scripts": {
     "start": "node index.js"
   },
+  "type": "module",
   "repository": {
     "type": "git",
     "url": "git@github.com:JCowdy/semantic-test-pkg.git"
@@ -27,5 +28,8 @@
   "homepage": "https://github.com/JCowdy/semantic-test-pkg#readme",
   "devDependencies": {
     "semantic-release": "^19.0.2"
+  },
+  "dependencies": {
+    "chalk": "^5.0.1"
   }
 }
