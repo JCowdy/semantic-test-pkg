@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/JCowdy/semantic-test-pkg.git"
+    "url": "git@github.com:JCowdy/semantic-test-pkg.git"
   },
   "author": "jcowdy",
   "license": "ISC",
@@ -19,7 +19,7 @@
     "branches": [
       "master"
     ],
-    "repositoryUrl": "git+https://github.com/JCowdy/semantic-test-pkg.git",
+    "repositoryUrl": "git@github.com:JCowdy/semantic-test-pkg.git",
     "plugins": [
       "@semantic-release/npm"
     ]
