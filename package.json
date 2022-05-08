@@ -1,0 +1,31 @@
+{
+  "name": "@jcowdy/semantic-test-pkg",
+  "version": "1.0.0",
+  "description": "Test package for semantic release",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JCowdy/semantic-test-pkg.git"
+  },
+  "author": "jcowdy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JCowdy/semantic-test-pkg/issues"
+  },
+  "release": {
+    "branches": [
+      "master"
+    ],
+    "repositoryUrl": "git+https://github.com/JCowdy/semantic-test-pkg.git",
+    "plugins": [
+      "@semantic-release/npm"
+    ]
+  },
+  "homepage": "https://github.com/JCowdy/semantic-test-pkg#readme",
+  "devDependencies": {
+    "semantic-release": "^19.0.2"
+  }
+}
