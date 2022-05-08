@@ -22,6 +22,8 @@
     ],
     "repositoryUrl": "git@github.com:JCowdy/semantic-test-pkg.git",
     "plugins": [
+      "@semantic-release/git",
+      "@semantic-release/github",
       "@semantic-release/npm"
     ]
   },
