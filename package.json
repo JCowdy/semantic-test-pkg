@@ -29,6 +29,9 @@
   },
   "homepage": "https://github.com/JCowdy/semantic-test-pkg#readme",
   "devDependencies": {
+    "@semantic-release/git": "^10.0.1",
+    "@semantic-release/github": "^8.0.4",
+    "@semantic-release/npm": "^9.0.1",
     "semantic-release": "^19.0.2"
   },
   "dependencies": {
