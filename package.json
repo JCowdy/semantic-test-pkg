@@ -43,6 +43,6 @@
     "semantic-release": "22.0.7"
   },
   "dependencies": {
-    "chalk": "^5.0.1"
+    "chalk": "^6.0.0"
   }
 }
